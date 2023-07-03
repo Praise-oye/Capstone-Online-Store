@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping</title>
+        <link href="cart.css" rel="stylesheet">
+        <!--This links to the external icons that i used in this page-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!--This link to the Bootstrap 5-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body class="body">
+        <header>
+            <div class="myHeader" id="cataloguePage">
+                <!--I linked the titles to their parts on the document-->
+                <span><a href="shoppingCart.html">HOME</a></span>
+                <span><a href="#shop">SHOP NOW</a></span>
+                <span><a href="#contact">CONTACT</a></span>
+            </div>
+            <ul class="nav">
+                <li><i class="fa fa-heart" style="font-size:30px;"></i></li>
+                <li><i class='fa fa-user' style='font-size:30px'></i></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:30px; color: black;"><span>0</span></i></a></li>
+            </ul>
+        </header>
+        <!--Background image was added to this section-->
+        <section class="bgimg">
+            <!--The h1 tag was styled with an external style sheet-->
+            <h1>SNEAKER HEAD <br> COLLECTION</h1>
+        </section>
+        <section>
+            <!--The h2 tag was styled with an external style sheet-->
+            <h2 id="shop">SHOP OUR SALE COLLECTION NOW</h2>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+                <div class="row">
+                  <div class="col-sm">
+                    <a href="#Nike1"><img src="https://images.unsplash.com/photo-1600181516264-3ea807ff44b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHNuZWFrZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-thumbnail rounded img-fluid shadow bg-white sneakers" alt="Jordan's sneakers"></a>
+                    <div>
+                        <!--Name and Short description of the product-->
+                        <h6>Air Jordan Dunk Low "Red University"</h6>
+                        <p>The Nike Dunk Low has a clean white leather upper that's paired with vibrant red overlays and Swoosh branding on the sides, which sits atop a white midsole.</p>
+                        <p>R<span>2500</span></p>
+                    </div>
+                    <!--This was used to add buttons to the page-->
+                    <div  class="button" style="margin: 10px">
+                        <button type="button" class="btn btn-primary btn-sm addToCart" onclick="alertSubtotal()">Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <a href="#NewBalance"><img src="https://images.unsplash.com/photo-1621315271772-28b1f3a5df87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHNuZWFrZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-thumbnail img-fluid shadow bg-white rounded sneakers" alt="New Balance Sneakers"></a>
+                    <div>
+                        <!--Name and Short description of the product-->
+                        <h6>New Balance 997H Grey Day</h6>
+                        <p>New Balance's way of celebrating its iconic grey colorway. Leading with the theme “worn by anyone”, the brand positions grey as something for everyone.</p>
+                        <p>R<span>1500</span></p>
+                    </div>
+                    <!--This was used to add buttons to the page-->
+                    <div class="button"  style="margin: 10px">
+                        <button type="button" class="btn btn-primary btn-sm addToCart" onclick="alertSubtotal()">Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <a href="#Converse"><img src="https://images.unsplash.com/photo-1621665421558-831f91fd0500?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHNuZWFrZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-thumbnail img-fluid shadow bg-white rounded sneakers" alt="Converse Sneakers"></a>
+                    <div>
+                        <!--Name and Short description of the product-->
+                        <h6>Converse CDG</h6>
+                        <p>A white canvas upper with a red peekaboo heart designed by New York graphic artist Filip Pagowski on the side panels. It also comes with stripe on the heel.lorem lorem</p>
+                        <p>R<span>3500</span></p>
+                    </div>
+                    <!--This was used to add buttons to the page-->
+                    <div class="button"  style="margin: 10px">
+                        <button type="button" class="btn btn-primary btn-sm addToCart" onclick="alertSubtotal()">Add to cart</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="#AirMax"><img src="https://images.unsplash.com/photo-1600181333309-6d2cddc15c43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTk0fHxzbmVha2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="img-thumbnail rounded img-fluid filter shadow bg-white rounded sneakers" alt="Air Max sneakers"></a>
+                        <div>
+                            <!--Name and Short description of the product-->
+                            <h6>Air Max 90 "Cuban Link"</h6>
+                            <p>This version comes with a bold color combination in brown, yellow and rose. The most impressive highlight is a silver chain with a gilded Swoosh.</p>
+                            <p>R<span>2000</span></p>
+                        </div>
+                        <!--This was used to add buttons to the page-->
+                        <div class="button"  style="margin: 10px">
+                            <button type="button" class="btn btn-primary btn-sm addToCart" onclick="alertSubtotal()">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <a href="#Tekno"><img src="https://images.unsplash.com/photo-1625210235625-06715dac1fcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDE3fHxzbmVha2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="img-thumbnail img-fluid shadow bg-white rounded sneakers" alt="Nike Sneakers"></a>
+                        <div>
+                            <!--Name and Short description of the product-->
+                            <h6>Nike WM2K</h6>
+                            <p>The M2K Tekno features a futuristic heel clip and plush, comfortable tongue. A leather and textile upper provides modern style, and the Injected Phylon midsole. lorem</p>
+                            <p>R<span>2500</span></p>
+                        </div>
+                        <!--This was used to add buttons to the page-->
+                        <div class="button"  style="margin: 10px">
+                            <button type="button" class="btn btn-primary btn-sm addToCart" onclick="alertSubtotal()">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <a href="#Jordan"><img src="https://images.unsplash.com/photo-1612181346599-a6bfbd67be86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNuZWFrZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-thumbnail img-fluid shadow bg-white rounded sneakers" alt="Jordan 1 Sneakers"></a>
+                        <div>
+                            <!--Name and Short description of the product-->
+                            <h6>Jordan 1 Mid Dia de los Muertos</h6>
+                            <p>The holiday collection's only Air Jordan is clad in a three-tone color scheme rooted in those of traditional floral ofrendas (altars) laid out during the holiday.</p>
+                            <p>R<span>2900</span></p>
+                        </div>
+                        <!--This was used to add buttons to the page-->
+                        <div class="button"  style="margin: 10px">
+                            <button type="button" class="btn btn-primary btn-sm  addToCart" onclick="alertSubtotal()">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="cartDisplay" style="display: none;"></div>
+        <br>
+        <hr>
+        <section>
+            <h4 id="contact">Leave us a message</h4>
+            <!-- Forms: https://getbootstrap.com/docs/4.1/components/forms/ -->
+            <form>
+                <div class="form-group row m-3">
+                  <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputName3" placeholder="Enter your name">
+                  </div>
+                </div>
+                <div class="form-group row m-3">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail3" placeholder="Enter  your email">
+                    </div>
+                </div>
+                <div class="form-group row m-3">
+                    <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Message</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Enter  your message"></textarea>
+                    </div>
+                </div>  
+                <div class="col-auto text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+            </form>    
+        </section>
+        <br>
+        <hr>
+        <!--This is drop down menu-->
+        <div class="accordian-wrapper">
+            <div class="cards">
+                <!--Created a title-->
+                <h1 class="card-title">About Store</h1>
+                <!--Info to be placed in the card-->
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore ducimus id asperiores quisquam cum voluptatem laborum tenetur aut distinctio provident iusto maiores animi, reiciendis dignissimos, voluptatibus laudantium vitae labore!</p>
+                </div>
+            </div>
+            <div class="cards">
+                <!--Created a title-->
+                <h1 class="card-title">Stores</h1>
+                <!--Info to be placed in the card-->
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit a sunt vero odio cum quasi modi, dolor quae voluptas unde sapiente omnis asperiores adipisci molestiae minus esse nulla excepturi alias.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <!--Created a title-->
+                <h1 class="card-title">Contact</h1>
+                <!--Info to be placed in the card-->
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nam, repudiandae fuga praesentium eaque laudantium ipsam similique explicabo odio enim aspernatur neque voluptatum beatae dolores cum temporibus animi voluptatibus alias!</p>
+                </div>
+            </div>
+            <div class="cards">
+                <!--Created a title-->
+                <h1 class="card-title">More Information</h1>
+                <!--Info to be placed in the card-->
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non molestias, deserunt quasi eveniet libero facere corrupti totam dolore animi reprehenderit a ea vel ab, nihil quaerat vero dolores expedita tempora?</p>
+                </div>
+            </div>
+
+        </div>
+        <!--This links to the jquery and javascript-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="cart.js"></script>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+.body{
+    background-color: #f4f4f4;
+}
+/* The display, justify-content, align-content rule was used to display the content in the header horizontally. The position sticky was used to allow the header to be always postioned on top of the page */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 20px;
+}
+/* To remove the decoration around the a tag*/
+.myHeader a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-right: 2rem;
+}
+ul{
+    float: right;
+}
+/* This rule is used to display the list inline and also to add padding */
+li{
+    display: inline;
+    padding:0 3px;
+}
+/* I selected the class bgimg to add background image, the image used does not belong to me. It was taken from a public domain  https://unsplash.com/ */
+.bgimg{
+    width:100%;
+    background-image: url(https://images.unsplash.com/photo-1601903076187-ec28bf478020?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1029&q=80);
+    height: 100vh; /* specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+/* The rule was used to center, add padding, change the font-family and font weight of the h1 tag*/
+h1,h2,h4{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 5rem ;
+    padding: 10px 0;
+}
+/* This rule is used to set the width,border,border-radius,border-color and margin for the element with the class of card */
+.card {
+    width:60%;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: grey;
+    margin: 20px 40px;
+}
+/*To change the margin and width*/
+.block img{
+    margin: 20px;
+    width: 200px;
+}
+/* to display flex and align the element with the class of block */
+.block{
+    display: flex;
+    align-items: center;
+}
+/*Rule to change the display of the element with the class of cart-quantity-input*/
+.cart-quantity-input{
+    width: 35%;
+}
+/*Rule to change the display of the element with the class of info*/
+.info{
+    margin: 30px;
+    font-size: 15px; 
+}
+/*Rule to change the display of the element of p which is under with the class of info*/
+.info p{
+    font-size: 15px;
+}
+/*Rule to change the display of the element with the class of confirm*/
+.confirm{
+    margin-left: 70%;
+}
+/*Rule to change the display of the element with the class of accordian-wrapper*/
+.accordian-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+/*Rule to change the display of the element with the class of cards*/
+.cards{
+    background-color: grey;
+    padding: 10px 30px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+/*to hide the element that has a class of card-body*/
+.card-body{
+    display: none;
+}
+/*To change the font weight and size of the element that has a class of options */
+.options{
+    font-size: 25px;
+    font-weight: bold;
+}
+
