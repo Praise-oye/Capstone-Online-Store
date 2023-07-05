@@ -1,16 +1,15 @@
 # Table of Contents
 
 - [Capstone-Online-Store](#capstone-online-store)
-- Installation
-- <a href="credit">How to use</a>
+- [Installation](#installation)
 - [Credit](#credit)
 
-## Capstone-Online-Store
+## Capstone-Online-Store<a name="capstone-online-store"></a>
 This is a Capstone Project for level 1 of the Full-Stack Web development boot camp at HyperionDev. The assignment was to create a functional shopping cart for your online store.
 The shopping cart allows customers to effortlessly browse through the online store, select desired items, and add them to their cart. The cart maintains a list of selected products and their corresponding quantities and prices. It ensures that the customer's choices are preserved during their shopping journey, even if they navigate to different pages or temporarily leave the website.
 The shopping cart also incorporates features like updating item quantities, enabling customers to modify their choices before checkout. It calculates the subtotal, including applicable taxes or discounts, to provide an accurate and transparent purchase overview. Additionally, the cart may offer functionalities such as applying coupon codes.
 
-### Installation
+### Installation<a name="installation"></a>
 To install and run this project locally, follow these steps:
 
 Clone the repository: Start by cloning this GitHub repository to your local machine. You can do this by running the following command in your terminal:
@@ -25,5 +24,5 @@ control right-click in VScode and navigate to open in the default browser and cl
 
 The app will start in your browser
 
-### <a href="credit">Credit</a>
+### Credit<a name="credit"></a>
 This Capstone Project was created by Praise Oyeboade
