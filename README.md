@@ -6,6 +6,8 @@ The shopping cart also incorporates features like updating item quantities, enab
 Table of content
 #About Capstone project
 ##Installation
+##Installation
+##Installation
 ###How to use
 ####Credit
 
