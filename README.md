@@ -5,9 +5,9 @@ The shopping cart also incorporates features like updating item quantities, enab
 
 Table of content
 #About Capstone project
-#Installation
-#How to use
-#Credit
+##Installation
+###How to use
+####Credit
 
 #Installation
 To install and run this project locally, follow these steps:
